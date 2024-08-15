@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage that has more to do with JavaScript assignments -->
+<h1>JavaScript Assignments</h1>
+
+<!-- the h2 element that captions logical AND assignment of which will be focused on in this webpage and within JavaScript assignments -->
+<h2>Logical AND Assignment</h2>
+
+<!-- the h3 element that has captioned the &&= operator being the logical AND assignment operator that is within JavaScript assignments -->
+<h3>The &&= Operator</h3>
+
+<!-- the p element that gives a brief explanation on where the 1st value on how if it's true and then right after of where the 2nd value will be assigned -->
+<p>If the first value is true, the second value is assigned.</p>
+
+<!-- the p element containing only an id called demo and nothing else that was contained inside of this p element in specific -->
+<p id="demo"></p>
+
+<script>
+
+// the x variable (declared by the let keyword) that has a stored value of 100
+let x = 100;
+
+// the x variable that has the logical AND assignment operator right before the operand of 5 where the logical AND assignment operator is calculating whether if the x variable of it's stored value is true and then where the 2nd value being 5 will be assigned right after
+x &&= 5;
+
+// the particular line of code inside of the opening and closing script tags that is telling the browser of this document/webpage to print out the string value wrapped in double quotes and the x variable of it's own value that are both being put together by the + operator and have a new string that'll be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML = "Value of x is: " + x;
+</script>
+
+</body>
+</html>

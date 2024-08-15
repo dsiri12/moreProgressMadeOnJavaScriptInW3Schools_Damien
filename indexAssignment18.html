@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage that has more to do with JavaScript assignments -->
+<h1>JavaScript Assignments</h1>
+
+<!-- the h2 element that captions the ??= operator which is going to be focused on in this webpage and within JavaScript assignments -->
+<h2>The ??= Operator</h2>
+
+<!-- the p element that explains about the ??= operator on how it's used between 2 values and whether if the 1st value is undefined or null, then the 2nd value will be assigned right after -->
+<p>The ??= operator is used between two values. If the first value is undefined or null, the second value is assigned.</p>
+
+<!-- the p element tht contains only an id called demo -->
+<p id="demo"></p>
+
+<script>
+
+// the x variable that is defined by the let keyword without having any value of some sort being assigned to this specific x variable
+let x;
+
+// the line of code in particular that's inside of the opening and closing script tags that is telling the browser of this document/webpage to print out the expression of the x variable of it's own value with the ??= operator right next to it and right before the operand of 5 and where a calculation is being done of whether if the 1st value being the x variable of it's own value is undefined or null and where the 2nd value being the operand of 5 will be assigned right after of which would be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML = x ??= 5; 
+</script>
+
+</body>
+</html>
