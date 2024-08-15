@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this specific webpage having more to do with JavaScript -->
+<h2>JavaScript</h2>
+
+<!-- the p element that has the same explanation as the p element had from the previous webpage before this webpage in specific  -->
+<p>JavaScript evaluates expressions from left to right. Different sequences can produce different results:</p>
+
+<!-- the p element containing an id called demo only -->
+<p id="demo"></p>
+
+<script>
+
+// the x variable (declared by the let keyword) that is assigned an expression of the string value called "Volvo" and also the operands of 16 and 4 and where both of the operands 16 and 4 are both treated as strings by JavaScript right after of which would produce a different result of it's own
+let x = "Volvo" + 16 + 4;
+
+// the particular line of code being inside of the opening and closing script tags that is telling the browser of this specific document/webpage to output the x variable of it's own value into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>

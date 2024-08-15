@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this specific webpage that has to do with JavaScript data types -->
+<h2>JavaScript Data Types</h2>
+
+<!-- the p element that explains about how JavaScript has dynamic types and also how this means the same variable could be used to hold different types of any sort -->
+<p>JavaScript has dynamic types. This means that the same variable can be used to hold different data types:</p>
+
+<!-- the p element containing only an id called demo -->
+<p id="demo"></p>
+
+<script>
+
+// the x variable (declared by the let keyword) without any value that was stored inside of this specific x variable and where a single-line comment is on the right side and below this single-line comment that says how the x variable is undefined
+let x;         // Now x is undefined
+
+// the x variable that isn't declared by any keyword of any sort that is assigned the number 5 and where a single-line comment says that the x variable is a number
+x = 5;         // Now x is a Number
+
+// the x variable without any keyword to declare this specific x variable that is assigned a string value of "John" and where a single-line comment says that the x variable is a string
+x = "John";    // Now x is a String
+
+// the particular line of code inside of the opening and closing script tags that's telling the browser of this specific document/webpage to output the x variable of it's own value into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>

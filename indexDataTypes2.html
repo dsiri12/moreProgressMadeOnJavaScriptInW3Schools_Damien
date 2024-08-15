@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage that has more to do with JavaScript -->
+<h2>JavaScript</h2>
+
+<!-- the p element that has the same explanation as the p element had in the previous webpage before this webpage in particular -->
+<p>When adding a string and a number, JavaScript will treat the number as a string.</p>
+
+<!-- the p element containing only an id called demo and nothing else that's contained inside of this p element in specific -->
+<p id="demo"></p>
+
+<script>
+
+// the x variable (declared by the let keyword) that is assigned an expression of the string value of "Volvo" and the operand of 16 that are going to be put together by the + operator and where the operand of 16 will be treated as a string by JavaScript right after
+let x = "Volvo" + 16;
+
+// the particular line of code that's inside of the opening and closing script tags that is telling the browser of this document/webpage to output the x variable of it's own value into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
