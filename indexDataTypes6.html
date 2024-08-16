@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage having to do with JavaScript strings -->
+<h2>JavaScript Strings</h2>
+
+<!-- the p element explaining about strings on how they're written with quotes and that I can use either single quotes or double quotes -->
+<p>Strings are written with quotes. You can use single or double quotes:</p>
+
+<!-- the p element that has only an id called demo -->
+<p id="demo"></p>
+
+<script>
+
+// the carName1 variable (declared by the let keyword) that is assigned a string value wrapped in double quotes that says "Volvo XC60"
+let carName1 = "Volvo XC60";
+
+// the carName2 variable (declared by the let keyword) being assigned the same string value in single quotes this time which does say 'Volvo XC60'
+let carName2 = 'Volvo XC60';
+
+// the particular line of code inside of the opening and closing script tags that's telling the browser of this document/webpage to print out each of the carName1 and carName2 variables including a br tag that make a break in between of these variables of their string value that are being put together by the + operator of 2 of them which make a new string that'll be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML =
+carName1 + "<br>" + 
+carName2; 
+</script>
+
+</body>
+</html>
