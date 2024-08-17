@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this current webpage that has to do with JavaScript booleans -->
+<h2>JavaScript Booleans</h2>
+
+<!-- the p element that briefly explains about booleans on how they can have 2 values of either true or false -->
+<p>Booleans can have two values: true or false:</p>
+
+<!-- the p element containing only an id called demo -->
+<p id="demo"></p>
+
+<script>
+
+// the x variable (declared by the let keyword) that has a stored value of 5
+let x = 5;
+
+// the y variable (declared by the let keyword) having a stored value of 5 inside of this specific y variable
+let y = 5;
+
+// the z variable (declared by the let keyword) that has a value of 6 stored inside of this specific z variable
+let z = 6;
+
+// the particular line of code that's inside of the opening and closing script tags that's telling the browser of this current document/webpage to print out each of the booleans in their own parentheses of (x == y) and (x == z) including a br tag that is making a break in between each of these 2 different booleans that are all being put together by the 2 + operators into a new string that'll be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML =
+(x == y) + "<br>" + (x == z);
+</script>
+
+</body>
+</html>

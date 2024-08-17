@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this specific webpage that has more to do with JavaScript strings -->
+<h2>JavaScript Strings</h2>
+
+<!-- the p element that briefly explains about how I can use quotes inside of a string of any sort while as long as they don't match with the kind of quotes that surround the string itself -->
+<p>You can use quotes inside a string, as long as they don't match the quotes surrounding the string:</p>
+
+<!-- the p element containing an id called demo -->
+<p id="demo"></p>
+
+<script>
+
+// the answer1 variable (declared by the let keyword) that is assigned a string value that's wrapped with double quotes that says "It's alright"
+let answer1 = "It's alright";
+
+// the answer2 variable (declared by the let keyword) being assigned a string value wrapped with double quotes and where this specific string value says Johnny that is wrapped in single quotes of altogether saying "He is called 'Johnny'"
+let answer2 = "He is called 'Johnny'";
+
+// the answer3 variable (declared by the let keyword) that's assigned a string value wrapped in single wuotes this time and where this specific string value says Johnny that's wrapped in double quotes
+let answer3 = 'He is called "Johnny"';
+
+// the particular line of code being inside of the opening and closing script tags that is telling the browser of this specific document/webpage to print out each of the answer1, answer2, answer3 variables including the 2 br tags that are making a break in between of these different variables with their own string value that are all being put together by the 4 + operators that make into a new string that will be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML =
+answer1 + "<br>" + 
+answer2 + "<br>" + 
+answer3;
+</script>
+
+</body>
+</html>

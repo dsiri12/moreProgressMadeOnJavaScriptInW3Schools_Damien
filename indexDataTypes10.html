@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this specific webpage that has to do with JavScript Bigint -->
+<h1>JavScript Bigint</h1>
+
+<!-- the p element that briefly explains about a BigInt on how it can't have decimals -->
+<p>A BigInt can not have decimals.</p>
+
+<!-- the p element that contains only an id called demo and nothing else tht was contained inside of this specific p element -->
+<p id="demo"></p>
+
+<!-- the p element that explains about what I can't do of performing math between a BigInt type and a Number type -->
+<p>You cannot perform math between a BigInt type and a Number type.</p>
+
+<script>
+
+// the x variable (declared by the let keyword) that is assigned the BigInt type that has a number value wrapped in double quotes of 123456789012345678901234567890 that's inside of the parentheses to the BigInt type
+let x = BigInt("123456789012345678901234567890");
+
+// the particular line of code that is inside of the opening and closing script tags that is telling the browser of this specific document/webpage to output the x variable of it's own value into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML = x; 
+</script>
+
+</body>
+</html>

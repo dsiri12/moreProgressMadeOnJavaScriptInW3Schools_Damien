@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage that has to do with JavaScript numbers -->
+<h2>JavaScript Numbers</h2>
+
+<!-- the p element that's briefly explaining about how numbers can genarally be written with or without decimals -->
+<p>Numbers can be written with, or without decimals:</p>
+
+<!-- the p element that contains an id called demo only -->
+<p id="demo"></p>
+
+<script>
+
+// the x1 variable (declared by the let keyword) that has a stored value of 34.00
+let x1 = 34.00;
+
+// the x2 variable (declared by the let keyword) that has a value of 34 stored inside of this specific x2 variable
+let x2 = 34;
+
+// the x3 variable (declared by the let keyword) having a stored value of 3.14
+let x3 = 3.14;
+
+// the line of code in particular inside of the opening and closing script tags that is telling the browser of this document/webpage to print out each of the x1, x2, and x3 variables including the 2 br tags that are each making a break in between of these 3 different variables that are all being put together by the 3 + operators that then make into a new string that'll be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML =
+x1 + "<br>" + x2 + "<br>" + x3;
+</script>
+
+</body>
+</html>
