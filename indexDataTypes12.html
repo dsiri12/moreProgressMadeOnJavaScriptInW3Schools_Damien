@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this specific webpage that has to do with JavaScript Arrays -->
+<h2>JavaScript Arrays</h2>
+
+<!-- the p element that briefly explains about array indexes on how they're zero-based and what means that the 1st item would be [0] -->
+<p>Array indexes are zero-based, which means the first item is [0].</p>
+
+<!-- the p element that contains only an id called demo -->
+<p id="demo"></p>
+
+<script>
+
+// the cars variable (declared by the const keyword) that is assigned an array of 3 different car brands called "Saab", "Volvo", and lastly "BMW"
+const cars = ["Saab","Volvo","BMW"];
+
+// the particular line of code that's inside of the opening and closing script tags that is telling the browser of this specific document/webpage to output the 1st item that has an array index of [0] while also being cars[0] which is "Saab" into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML = cars[0];
+</script>
+
+</body>
+</html>
