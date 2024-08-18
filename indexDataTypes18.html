@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage that has to do with JavaScript datatypes -->
+<h1>JavaScript Datatypes</h1>
+
+<!-- the p element that briefly explains about an empty string of how it has both a legal and a type instead of being "undefined" -->
+<p>An empty string has both a legal value and a type:</p>
+
+<!-- the p element containing an id called demo only -->
+<p id="demo"></p>
+
+<script>
+
+// the car variable (declared by the let keyword) that is assigned a string value wrapped in double quotes that has nothing inside of there of which would be both legal and a type in this particular case here
+let car = "";
+
+// the particular line of code that's inside of the opening and closing script tags that is telling the browser of this document/webpage to print out the 2 string values wrapped in double quotes including the car variable of it's own value being both legal and a type and the typeof operator that is returning the car variable of a variable that is both legal and a type while also a br tag that is wrapped in double quotes that is making a break in between the car variable of it's own value and the string value wrapped in double quotes that says "The type is: " that are all being put together by the 4 + operators into a new string that'll be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML =
+"The value is: " + car + "<br>" + "The type is: " + typeof car;
+</script>
+
+</body>
+</html>

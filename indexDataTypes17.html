@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this current webpage that has more to do with JavaScript operators -->
+<h1>JavaScript Operators</h1>
+
+<!-- the h2 element that is captioning the same thing as the last few webapges have already captioned right before this webpage in specific -->
+<h2>The typeof Operator</h2>
+
+<!-- the p element that explains about variables of how they can be emptied out if I set the value of any variable to "undefined" -->
+<p>Variables can be emptied if you set the value to <b>undefined</b>.</p>
+
+<!-- the p element containing an id called demo only and nothing else that was contained inside of this specific p element -->
+<p id="demo"></p>
+
+<script>
+
+// the car variable (declared by the let keyword) that's assigned a string value wrapped in double quotes called "Volvo"
+let car = "Volvo";
+
+// the car variable without being declared by any keyword that is assigned a value of "undefined"
+car = undefined;
+
+// the line in particular that's inside of the opening and closing script tags that is telling the browser of this current document/webpage to print out the 2 different string values wrapped in double quotes while also the car variable and the typeof operator that is returning the car variable of a variable that's undefined that are all being put together by the 3 + operators into a new string that;ll be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML =
+"<p>The value of car is " + car +
+"<p>The typeof car is " + typeof car;
+</script>
+
+</body>
+</html> 

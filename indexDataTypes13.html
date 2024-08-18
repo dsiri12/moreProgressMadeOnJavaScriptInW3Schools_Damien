@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- title of this webpage having to do with JavaScript objects -->
+<h2>JavaScript Objects</h2>
+
+<!-- the p element that contains only an id called demo -->
+<p id="demo"></p>
+
+<script>
+
+// the person variable (declared by the const keyword) where person is a JavaScript object that has the properties of person with firstName being assigned the string value of "John", lastName being assigned the string value of "Doe", age being assigned a number of 50, and eyeColor being assigned a string value of "blue"
+const person = {
+  firstName : "John",
+  lastName  : "Doe",
+  age     : 50,
+  eyeColor  : "blue"
+};
+
+// the line of code in particular inside of the opening and closing script tags that is telling the browser of this document/webpage to print out each of the values to person.firstName and person.age including 2 different string values of "is" and "old" that are being put together by the 3 + operators into a new string that'll be printed out into the HTML element being the p element containing an id called demo
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+
+</body>
+</html>
